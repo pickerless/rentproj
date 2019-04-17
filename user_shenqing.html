@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>城市青年公寓旅舍</title>
+		<link rel="shortcut icon" href="" />
+		<link rel="stylesheet" href="css/index.css" />
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+	</head>
+	<body>
+		<!--顶部-->
+		<div class="header">
+			<div class="width1190">
+				<!--顶部左边区域-->
+				<div class="fl">您好，欢迎来到城青公寓旅社!</div>
+				<!--顶部右边区域-->
+				<div class="fr">
+					<a href="login.html">登陆</a> |
+					<a href="reg.html">注册</a> |
+					<a href="javascript:;" onclick="">加入收藏</a> |
+					<a href="javascript:;">设为首页</a>
+				</div>
+			</div>
+		</div>
+		<!--logo和电话区域-->
+		<div class="logo-phone">
+			<div class="width1190">
+				<h1 class="logo">
+					<a href="index.html"><img src="img/logo.png" /></a>
+				</h1>
+				<div class="phones"><span>028-8899-8365</span></div>
+				<div class="clears"></div>
+			</div>
+		</div>
+		<!--房源分类和导航区域-->
+		<div class="list-nav">
+			<div class="width1190">
+				<!--房源分类-->
+				<div class="list">
+					<h3>房源分类</h3>
+					<div class="list-list">
+						<!--房源区域-->
+						<dl>
+							<dt><a href="javascript:;">房源区域</a></dt>
+							<dd>
+								<a href="javascript:;">智慧园</a>
+								<a href="javascript:;">立民村</a>
+								<a href="javascript:;">塘口村</a>
+								<a href="javascript:;">勤劳村</a>
+								<a href="javascript:;">芦胜村</a>
+								<a href="javascript:;">知新村</a>
+							</dd>
+						</dl>
+						<!--租房-->
+						<dl>
+							<dt><a href="#">租房</a></dt>
+							<dd>
+								<a href="#">租金</a>
+								<a href="#">出租方式</a>
+								<a href="#">面积</a>
+								<a href="#">房型</a>
+							</dd>
+						</dl>
+						<!--新房-->
+						<dl>
+							<dt><a href="#">新房</a></dt>
+							<dd>
+								<a href="#">价格</a>
+								<a href="#">面积</a>
+								<a href="#">房型</a>
+							</dd>
+						</dl>
+						<!--二手房-->
+						<dl>
+							<dt><a href="#">二手房</a></dt>
+							<dd>
+								<a href="#">价格</a>
+								<a href="#">面积</a>
+								<a href="#">房型</a>
+							</dd>
+						</dl>
+					</div>
+				</div>
+				<!--导航区域-->
+				<ul class="nav">
+					<li class="navCur">
+						<a href="index.html">首页</a>
+					</li>
+					<li>
+						<a href="pro_rent.html">租房</a>
+					</li>
+					<li>
+						<a href="pro_new.html">新房</a>
+					</li>
+					<li>
+						<a href="pro_ers.html">二手房</a>
+					</li>
+					<li class="zhiding">
+						<a href="javascript:;">指定购房</a>
+					</li>
+					<li>
+						<a href="user_jingji.html">经纪人申请</a>
+					</li>
+					<li>
+						<a href="about.html">关于我们</a>
+					</li>
+					<div class="clears"></div>
+				</ul>
+				<div class="clears"></div>
+			</div>
+		</div>
+		<!--banner大图-->
+		<div class="banner" style="background: url(img/ban.jpg) center center no-repeat;"></div>
+		<!--主要内容区域-->
+		<div class="content">
+			<div class="width1190">
+				<div class="vip-left">
+					<div class="vipNav">
+						<h3 class="vipTitle">会员中心</h3>
+						<dl>
+							<dt class="vipIcon3">账户设置</dt>
+							<dd>
+								<a href="user.html">我的资料</a>
+								<a href="user_pwd.html">账户密码设置</a>
+							</dd>
+							<dt class="vipIcon1">我的账户</dt>
+							<dd>
+								<a href="user_guanzhu.html">关注的房源</a>
+								<a href="user_shenqing.html" class="vipNavCur">申请社区自由经济人</a>
+								<a href="user_jingji.html">社区自由经济人</a>
+							</dd>
+						</dl>
+					</div>
+				</div> <!--vip-left-->
+				<div class="vip-right">
+					<h3 class="vipright-title">申请社区自由经纪人</h3>
+					<form action="#" method="get">
+						<dl class="vip-touxiang">
+							<dt><img src="img/IMG.jpg"/></dt>
+							<dd>
+								<h3><span>点击选择文件上传头像</span></h3>
+								<div class="sctx">
+									<input type="file" />
+									<a href="javascript:;">上传</a>
+								</div>
+								<p>图片格式：GIF、JPG、JPEG、PNG ，最适合尺寸100*100像素</p>
+							</dd>
+							<div class="clearfix"></div>
+						</dl>
+					</form>
+					<table class="grinfo">
+						<tbody>
+							<!--手机号-->
+							<tr>
+								<th>手机号：</th>
+								<td><span>18989880566</span></td>
+							</tr>
+							<!--昵称-->
+							<tr>
+								<th><span class="red">*</span> 昵称：</th>
+								<td>
+									<input class="inp inw" type="text" id="title" value="183*****100" maxlength="14" />
+								</td>
+							</tr>
+							<!--性别选择-->
+							<tr>
+								<th><span class="red"></span>工作年限：</th>
+								<td>
+									<input class="inp inw" type="text" id="work_years" maxlength="2" placeholder="0" />
+								</td>
+							</tr>
+							<!--认证表单-->
+							<tr>
+								<th><span class="red"></span>职业资格证：</th>
+								<td>
+									<input class="inp inw" type="text" id="age" placeholder="经纪人证" onkeyup="" />
+								</td>
+							</tr>
+							<!--个人描述-->
+							<tr>
+								<th valign="top">个人描述：</th>
+								<td>
+									<textarea id="sign" class="grtextarea"></textarea>
+									<br />
+									<span class="fgrey">(128字符以内)</span>
+								</td>
+							</tr>
+							<!--显示个人电话-->
+							<tr>
+								<th><span class="red">*</span>显示个人电话：</th>
+								<td>
+									<input style="cursor: pointer;" type="radio" id="rbShowtel1" name="is_showtel" />
+									<label style="cursor: pointer;" for="rbShowtel1">是</label>
+									<input style="cursor: pointer;" type="radio" id="rbShowtel2" name="is_showtel" />
+									<label style="cursor: pointer;" for="rbShowtel2">否</label>（是否允许前台显示个人电话，如果不允许我们将为你提供400转接服务）
+								</td>
+							</tr>
+							<!--选择服务商圈-->
+							<tr>
+								<th><span class="red">*</span>选择服务商圈：</th>
+								<td>
+									<div id="bee_countys1">
+										<select id="bee_countys1">
+											<option value="1">朝阳</option>
+											<option value="2">海淀</option>
+											<option value="3">东城</option>
+											<option value="4">西城</option>
+											<option value="5">崇文</option>
+											<option value="6">宣武</option>
+											<option value="7">丰台</option>
+											<option value="8">通州</option>
+											<option value="9">石景山</option>
+											<option value="10">房山</option>
+											<option value="11">昌平</option>
+											<option value="12">大兴</option>
+											<option value="13">顺义</option>
+											<option value="14">密云</option>
+											<option value="15">怀柔</option>
+											<option value="16">延庆</option>
+											<option value="17">平谷</option>
+											<option value="18">门头沟</option>
+											<option value="19">燕郊</option>
+											<option value="20">北京周边</option>
+										</select>
+										<select id="bee_street1">
+											<option value="1">安慧桥</option>
+											<option value="2">安贞</option>
+											<option value="3">奥运村</option>
+											<option value="4">百子湾</option>
+											<option value="5">八里庄</option>
+											<option value="6">北沙滩</option>
+											<option value="7">北苑</option>
+											<option value="8">CBD </option>
+											<option value="9">常营</option>
+											<option value="10">朝青板块</option>
+											<option value="11">朝外大街</option>
+											<option value="12">朝阳公园</option>
+											<option value="13">朝阳周边</option>
+											<option value="14">慈云寺</option>
+											<option value="15">大山子</option>
+											<option value="16">大屯</option>
+											<option value="17">大望路</option>
+											<option value="18">定福庄</option>
+											<option value="19">东坝</option>
+											<option value="20">东大桥</option>
+											<option value="21">豆各庄</option>
+											<option value="22">垡头</option>
+											<option value="23">甘露园</option>
+											<option value="24">高碑店</option>
+											<option value="25">工体</option>
+											<option value="26">广渠门</option>
+											<option value="27">管庄</option>
+											<option value="28">国贸</option>
+											<option value="29">国展</option>
+											<option value="30">和平街</option>
+											<option value="31">红庙</option>
+											<option value="32">花家地</option>
+											<option value="33">欢乐谷</option>
+											<option value="34">华威桥</option>
+											<option value="35">惠新里</option>
+											<option value="36">惠新西街</option>
+											<option value="37">呼家楼</option>
+											<option value="38">将台路</option>
+											<option value="39">建外大街</option>
+											<option value="40">健翔桥</option>
+											<option value="41">京广桥</option>
+											<option value="42">劲松</option>
+											<option value="43">酒仙桥</option>
+											<option value="44">来广营</option>
+											<option value="45">柳芳</option>
+											<option value="46">麦子店</option>
+											<option value="47">媒体村</option>
+											<option value="48">南磨房</option>
+											<option value="49">南沙滩</option>
+											<option value="50">农业展览馆</option>
+											<option value="51">潘家园</option>
+											<option value="52">三里屯</option>
+											<option value="53">三元桥</option>
+											<option value="54">芍药居</option>
+											<option value="55">胜古</option>
+											<option value="56">十八里店</option>
+											<option value="57">石佛营</option>
+											<option value="58">十里堡</option>
+											<option value="59">十里河</option>
+											<option value="60">首都机场</option>
+											<option value="61">双井</option>
+											<option value="62">双桥</option>
+											<option value="63">水碓子</option>
+											<option value="64">四惠</option>
+											<option value="65">松榆里</option>
+											<option value="66">孙河</option>
+											<option value="67">太阳宫</option>
+											<option value="68">甜水园</option>
+											<option value="69">团结湖</option>
+											<option value="70">望京</option>
+											<option value="71">小关</option>
+											<option value="72">小红门</option>
+											<option value="73">西坝河</option>
+											<option value="74">燕莎</option>
+											<option value="75">姚家园</option>
+											<option value="76">亚运村</option>
+											<option value="77">亚运村小营</option>
+											<option value="78">左家庄</option>
+										</select>
+									</div>
+								</td>
+							</tr>
+							<!--选择服务社区-->
+							<tr>
+								<th><span class="red">*</span>选择服务社区：</th>
+								<td>
+									<input type="hidden" id="mod_add_villages" />
+									<div id="villages_ids">
+										<div class="villages_ids1">
+											<p style="display: inline-block;">朝阳 安慧桥 附近的小区：</p>
+											<select>
+												<option>御花园</option>
+												<option>人间天堂</option>
+											</select>
+										</div>
+									</div>
+								</td>
+							</tr>
+							<!--性别选择-->
+							<tr>
+								<th><span class="red">*</span>性&nbsp;别：</th>
+								<td>
+									<input type="radio" value="2" id="rbSex1" name="sex" />
+									<label for="rbSex1">女</label>
+									<input type="radio" value="1" id="rbSex2" name="sex" />
+									<label for="rbSex2">男</label>
+									<span id="Sex_Tip"></span>
+								</td>
+							</tr>
+							<!--年龄表单-->
+							<tr>
+								<th><span class="red"></span>年&nbsp;龄：</th>
+								<td>
+									<input class="inp inw" type="text" id="age" value="0" onkeyup="" />
+								</td>
+							</tr>
+							<!--身份证信息-->
+							<tr>
+								<th><span class="red">*</span>身份证信息：</th>
+								<td>
+									<input class="inp inw" type="text" id="ID_card" />
+								</td>
+							</tr>
+							<!--真实姓名-->
+							<tr>
+								<th><span class="red">*</span>真实姓名：</th>
+								<td>
+									<input class="inp inw" type="text" id="realname" />
+								</td>
+							</tr>
+							<!--学历证明-->
+							<tr>
+								<th><span class="red"></span>学历证明：</th>
+								<td>
+									<input class="inp inw" type="text" id="cert_degree" />
+								</td>
+							</tr>
+							<!--QQ-->
+							<tr>
+								<th><span class="red"></span>QQ号：</th>
+								<td>
+									<input class="inp inw" type="text" id="cert_degree" />
+								</td>
+							</tr>
+							<!--提交按钮-->
+							<tr>
+								<th>&nbsp;</th>
+								<td colspan="2">
+									<label class="butt" id="butt">
+										<input type="submit" class="member_mod_button" onclick="" value="提交申请" />
+									</label>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div> <!--content-->
+		<div class="footer">
+			<div class="width1190">
+				<div class="fl">
+					<a href="index.html">城青旅舍</a>
+					<a href="about.html">关于我们</a>
+					<a href="contact.html">联系我们</a>
+					<a href="user.html">个人中心</a>
+				</div>
+				<div class="fr">
+					<dl>
+						<dt><img src="img/erweima.png"/></dt>
+						<dd>微信扫一扫<br />房价点评，精彩发布</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/erweima.png"/></dt>
+						<dd>微信扫一扫<br />房价点评，精彩发布</dd>
+					</dl>
+					<div class="clears"></div>
+				</div>
+				<div class="clears"></div>
+			</div>
+		</div>
+		<!--版权相关-->
+		<div class="copy">
+			Copyright@ 2018 城青旅舍 版权所有 沪ICP备12824567号-0&nbsp;&nbsp;&nbsp;&nbsp;技术支持：
+			<a target="_blank" href="#">大地网络工作室</a>
+		</div>
+		<div class="bg100"></div>
+		<!--指定购房弹框-->
+		<div class="zhidgf">
+			<h2>指定购房<span class="close">X</span></h2>
+			<form action="#" method="get">
+				<div class="zhiding-list">
+					<label>选择区域：</label>
+					<select>
+						<option value="">智慧园</option>
+						<option value="">立民村</option>
+						<option value="">塘口村</option>
+						<option value="">勤劳村</option>
+						<option value="">芦胜村</option>
+						<option value="">知新村</option>
+					</select>
+				</div>
+				<div class="zhiding-list">
+					<label>方式：</label>
+					<select>
+						<option>租房</option>
+						<option>新房</option>
+						<option>二手房</option>
+					</select>
+				</div>
+				<div class="zhiding-list">
+					<label>联系方式：</label>
+					<input type="text" />
+				</div>
+				<div class="zhidingsub"><input type="submit" value="提交" /></div>
+			</form>
+			<div class="zhidingtext">
+				<h3>指定购房注意事宜：</h3>
+				<p>1、请详细输入您所需要购买的房源信息(精确到小区)</p>
+				<p>2、制定购房申请提交后，客服中心会在24小时之内与您取得联系</p>
+				<p>3、如有任何疑问，请随时拨打我们的电话：400-000-0000</p>
+			</div>
+		</div>
+	</body>
+</html>
